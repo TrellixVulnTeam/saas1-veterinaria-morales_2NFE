@@ -1,0 +1,122 @@
+/***********NAV *********/
+.navbar {
+    background-color: #366fb1;
+}
+
+.nav-link {
+    color: white;
+    border: #c9d886 solid 2px;
+    border-radius: 130px;
+}
+
+.nav-link:hover {
+    color: bisque;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: bisque;
+    transition: all;
+    transform: scale(1.2);
+}
+
+.btn {
+    color: white;
+    background-color: #ffe4c42d;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    background-color: #d87753c9 !important;
+}
+
+
+/*******CONTENIDO********/
+.tituloUno {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 40px;
+    color: #366fb1;
+}
+
+.titulosIndex {
+    font-size: 25px;
+    color: #366fb1;
+}
+
+.imagenInicio {
+    position: relative;
+    left: 60rem;
+    bottom: 3.5rem;
+
+}
+
+/*******SLIDER*******/
+.carousel-inner {
+    width: 25%;
+    margin: 0 auto;
+}
+
+/**** CONTACTO********/
+.newsletter {
+    margin-top: 1rem;
+    margin: 1rem;
+    color: #366fb1;
+}
+
+.form-label {
+    margin: 1rem
+}
+
+.form-control {
+    margin: 1rem;
+    width: 35%;
+    border-radius: 15px;
+}
+
+.form-control:hover {
+    background-color: #dddadac9;
+    transform: scale(1.02);
+    transition: .3s;
+}
+
+
+.form-text {
+    margin: 1rem;
+}
+
+.form-check-input {
+    margin: .3rem !important;
+}
+
+.btn2 {
+    background-color: #366fb1;
+    color: white;
+    border-color: white;
+    border-radius: 130px;
+    margin: .5rem;
+    padding: .5;
+    transition: .5s;
+}
+
+.btn2:hover {
+    background-color: #dddadac9;
+    color: #366fb1;
+}
+
+/**********NOSOTROS*********/
+.tituloNosotros {
+    color: #366fb1;
+    margin-top: 1rem;
+    font-size: 1.9rem;
+}
+
+.parrafoNosotros {
+    width: 75%;
+    border: groove 2px hsl(25, 84%, 62%);
+    border-radius: 5px;
+}
+
